@@ -89,4 +89,3 @@ TEST(PrimeAccumulation, StandardBenchmarks) {
   EXPECT_EQ(sumPrime(100), 1060);
   EXPECT_EQ(sumPrime(2000000), 142913828922);
 }
-```
