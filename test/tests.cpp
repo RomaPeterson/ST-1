@@ -1,3 +1,4 @@
+// Copyright 2025 UNN-CS
 #include <gtest/gtest.h>
 #include <cstdint>
 #include "alg.h"
@@ -82,7 +83,7 @@ TEST(SumPrimeTests, TestSumBelowTen) {
 }
 
 TEST(SumPrimeTests, TestSumBelowSix) {
-  EXPECT_EQ(sumPrime(6), 5);
+  EXPECT_EQ(sumPrime(6), 10);  // Исправлено: 2 + 3 + 5 = 10
 }
 
 TEST(SumPrimeTests, TestSumBelowTwelve) {
